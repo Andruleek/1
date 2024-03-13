@@ -1,0 +1,41 @@
+--------------------------------
+|          BotInterface         |
+--------------------------------
+| + add_note(title, content, tags) |
+| + search_notes_by_tag(tag)    |
+--------------------------------
+                 ^
+                 |
+                 |
+                 |
+--------------------------------
+|             Note               |
+--------------------------------
+| - title: str                   |
+| - content: str                 |
+| - tags: list                   |
+--------------------------------
+| + __init__(title, content, tags) |
+--------------------------------
+                 ^
+                 |
+                 |
+                 |
+--------------------------------
+|         PersonalBot            |
+--------------------------------
+| - notes: list                  |
+| - categories: dict             |
+| - contacts: dict               |
+--------------------------------
+| + __init__()                   |
+| + add_note(title, content, tags) |
+| + search_notes_by_tag(tag)    |
+| + find_birthdays_in_n_days(n_days) |
+| + process_text(input_text)    |
+| + main()                       |
+--------------------------------
+
+
+
+
